@@ -1525,7 +1525,7 @@ GameObject:
   - component: {fileID: 2139977666}
   m_Layer: 0
   m_Name: player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1709,7 +1709,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3734323931303076693, guid: bc3c0e88076d2534c86ade4971107150, type: 3}
       propertyPath: m_LocalScale.y
-      value: -14.639
+      value: 14.639
       objectReference: {fileID: 0}
     - target: {fileID: 3734323931303076693, guid: bc3c0e88076d2534c86ade4971107150, type: 3}
       propertyPath: m_LocalScale.z

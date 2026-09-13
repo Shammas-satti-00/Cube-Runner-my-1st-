@@ -1,1 +1,26 @@
-".gitignore file for Unity" 
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# IDE and local files
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.userprefs
+
+# Unity generated solution files
+ExportedObj/
+consulo/
+sysinfo.txt
+
+# OS files
+.DS_Store
+Thumbs.db

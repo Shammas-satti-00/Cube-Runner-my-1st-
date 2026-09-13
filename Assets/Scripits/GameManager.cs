@@ -5,14 +5,29 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {   
     bool gameHasEnded =false;
+    bool levelCompleted = false;
     public float restartDelay =2f;
 
     public GameObject completeLevelUI;
 
+    void Awake()
+    {
+        if (completeLevelUI != null)
+        {
+            completeLevelUI.SetActive(false);
+        }
+    }
+
 
      public void CompleteLevel()
      {
-        completeLevelUI.SetActive(true);   
+        if (levelCompleted || completeLevelUI == null)
+        {
+            return;
+        }
+
+        levelCompleted = true;
+        completeLevelUI.SetActive(true);
      }
      public void EndGame()
 
